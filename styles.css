@@ -6,6 +6,20 @@ body {
   color: #333;
   transition: all 0.3s ease;
 }
+.video-section {
+      max-width: 720px;
+      margin: 20px auto;
+      padding: 10px;
+    }
+    .video-section h2 {
+      font-size: 1.5rem;
+      color: #0d4e91;
+    }
+    video {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+    }
 
 body.dark-mode {
   background: #121212;
